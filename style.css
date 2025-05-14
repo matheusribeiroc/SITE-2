@@ -4,7 +4,7 @@
     --branco:#ffffff;
     --botao-ativo: #084232;
     --boato-inativo:#031e28;
-    --texto-fundo:#ffffff;
+    --texto-fundo:#e3c7c7;
     --fonte: 'cascadia code';
 }
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
@@ -53,4 +53,33 @@ body{
 }
 ,.botao:first-child{
     border-radius: 0 40px 0 0;
+}
+@media screen and (min-width: 768px) {
+    .botoes{
+        display: flex;
+    }
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--azul);
+}
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--azul);
+    text-transform: uppercase;
 }
