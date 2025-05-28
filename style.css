@@ -27,7 +27,7 @@ body{
     width: 100%;
     font-size: 32px;
 }
-,.titulo-principal span{
+.titulo-principal span{
     color: var(--azul);
 }
 .botao{
@@ -51,7 +51,7 @@ body{
 .botao:first-child{
     border-radius: 40px 0 0 0;
 }
-,.botao:first-child{
+.botao:first-child{
     border-radius: 0 40px 0 0;
 }
 @media screen and (min-width: 768px) {
