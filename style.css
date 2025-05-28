@@ -1,11 +1,11 @@
 :root{
-    --cor-de-fundo:#2a2c2afd;
-    --azul :#b8d1e8;
-    --branco:#ffffff;
-    --botao-ativo: #031e28;
-    --boato-inativo:#031e28;
-    --texto-fundo:#1289b4;
-    --fonte: 'cascadia code';
+    --cor-de-fundo:#1E1E1E;   
+    --azul:#317dc4; 
+    --branco:#ffffff; 
+    --botao-ativo: #261c56; 
+    --botao-inativo:#100c24;  
+    --texto-fundo:#100c24; 
+    --fonte: 'Cascadia Code'; 
 }
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
 body{
