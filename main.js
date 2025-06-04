@@ -1,5 +1,5 @@
-const botoes =document.querySelectorAll(".botao");
-const textos =document.querySelectorAll(".aba-conteudo");
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
 for (let i=0; i <botoes.length; i++){
     botoes [i].onclick = function(){
         for (let j=0; j < botoes.length; j++){
@@ -23,7 +23,7 @@ function atualizaCronometro (){
         document.getElementById ("min"+i).textContent = calculaTempo(tempos[i])[2];
         document.getElementById ("seg"+i).textContent = calculaTempo(tempos[i])[3];
     }
-    for(let i = 0; i < contadores.length; i++){
+    for (let i = 0; i < contadores.length; i++){
         //contadores[i].textContent = calculaTempo (tempos[i]);
     }
 }
